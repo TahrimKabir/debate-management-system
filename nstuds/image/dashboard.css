@@ -1,0 +1,142 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+body nav{
+  height: 10vh;
+  width: 100%;
+  background: #0e0538;
+
+
+
+}
+
+body nav li{
+ display: inline-block;
+ width: 10%;
+ padding-top: 4vh;
+ float: right;
+}
+
+body nav li select{
+  border: 1px solid #0e0538;
+}
+
+body nav li a{
+
+
+  text-decoration: none;
+  height: 1.25vh;
+
+  color: silver;
+
+}
+
+@media only screen and (max-width: 1230px) {
+
+
+  body nav li{
+   display: inline-block;
+   width: 11%;
+   padding-top: 4vh;
+   float: right;
+  }
+
+}
+
+@media only screen and (max-width: 1120px) {
+
+  body nav li{
+   display: inline-block;
+   width: 11%;
+   padding-top: 4vh;
+   float: right;
+  }
+
+}
+
+@media only screen and (max-width: 1106px) {
+
+body nav{
+  height:10vh;
+}
+  body nav li{
+   display: inline-block;
+   width: 12%;
+   padding-top: 4vh;
+   float: right;
+  }
+body .logo a img{
+  height: auto;
+  width: 30%;
+}
+}
+
+@media only screen and (max-width: 1010px) {
+
+body nav{
+  height:10vh;
+}
+  body nav li{
+   display: inline-block;
+   width: 12%;
+   padding-top: 4vh;
+
+  }
+    body nav li a{
+      font-size: 1.5vw;
+    }
+body .logo a img{
+  height: 20vh;;
+  width: 30%;
+}
+}
+
+@media only screen and (max-width: 970px) {
+
+body nav{
+  height:10vh;
+}
+  body nav li{
+   display: inline-block;
+   width: 12%;
+   padding-top: 4vh;
+
+  }
+    body nav li a{
+      font-size: 1.5vw;
+    }
+body .logo a img{
+  height: 20vh;
+  width: 30%;
+}
+}
+
+@media only screen and (max-width: 360px) {
+
+body nav{
+  height:15vh;
+
+}
+  body nav li{
+   display: inline-block;
+   width: 10%;
+   padding-top: 4vh;
+   padding-right: 1vh;
+
+  }
+    body nav li a{
+      font-size: 2vh;
+
+    }
+body .logo a img{
+  height: 20vh;
+  width: 90%;
+}
+}
